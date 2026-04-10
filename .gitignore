@@ -8,3 +8,11 @@ code.md
 __pycache__/
 *.pyc
 *.pyo
+
+# Model artifacts (large files — not tracked in git)
+models/artifacts/*.joblib
+models/artifacts/*.pkl
+
+# Raw dataset (large file — not tracked in git)
+data/raw/
+data/processed/
