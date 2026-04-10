@@ -3,3 +3,8 @@ combined_data.csv
 venv
 
 code.md
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
